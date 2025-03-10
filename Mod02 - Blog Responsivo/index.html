@@ -15,120 +15,138 @@
     <main>
         <section class="background-green">
             <nav id="nav">
-                <h1>The Dev News</h1>
+                <div class="nav-container">
+                    <h1>The Dev News</h1>
+                    <div class="menu-toggle">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
             </nav>
         </section>
-        <section class="container">
+        <section class="main-container">
             <!--1-->
-            <div class="container-position1">
-                <img src="./assets/city.svg" alt="">
+            <div class="featured-image">
+                <img src="./assets/city.svg" alt="City landscape">
             </div>
     
             <!--2-->
-            <div class="container-grid-post container-position2">
+            <div class="recent-posts">
                 <div class="title-post background-green">
                     <h3>Posts mais recentes</h3>
                     <a href="">Ver todos</a>
                 </div>
-                <div class="container-post">
+                <div class="posts-grid">
                     
-                    <div class="grid-item-post position1">
-                        <img src="./assets/phone.svg" alt="">
-                        <div class="post-item">
+                    <article class="post-card">
+                        <div class="post-image">
+                            <img src="./assets/phone.svg" alt="Mobile development">
+                        </div>
+                        <div class="post-content">
                             <label>desenvolvimento</label>
                             <h3>Desenvolvimento mobile</h3>
                             <p class="text-gray"><b>By</b> Fabio Tetsuo</p>
                             <p>Lorem ipsum dolor sit amet consectetur. In vitae urna commodo amet congue integer dapibus. Interdum semper mauris convallis fusce enim odio. Vitae montes ridiculus felis.</p> 
                             <p class="text-gray">22 Agosto 2022</p>
                         </div>
-                    </div>
+                    </article>
 
-                    <div class="grid-item-post position2">
-                        <img src="./assets/vscode.svg" alt="">
-                        <div class="post-item">
+                    <article class="post-card">
+                        <div class="post-image">
+                            <img src="./assets/vscode.svg" alt="VS Code">
+                        </div>
+                        <div class="post-content">
                             <label>desenvolvimento</label>
                             <h3>Desenvolvimento mobile</h3>
                             <p class="text-gray"><b>By</b> Fabio Tetsuo</p>
                             <p>Lorem ipsum dolor sit amet consectetur. In vitae urna commodo amet congue integer dapibus. Interdum semper mauris convallis fusce enim odio. Vitae montes ridiculus felis.</p> 
                             <p class="text-gray">22 Agosto 2022</p>
                         </div>
-                    </div>
+                    </article>
 
-                    <div class="grid-item-post position3">
-                        <img src="./assets/photo.svg" alt="">
-                        <div class="post-item">
+                    <article class="post-card">
+                        <div class="post-image">
+                            <img src="./assets/photo.svg" alt="Photography">
+                        </div>
+                        <div class="post-content">
                             <label>desenvolvimento</label>
                             <h3>Desenvolvimento mobile</h3>
                             <p class="text-gray"><b>By</b> Fabio Tetsuo</p>
                             <p>Lorem ipsum dolor sit amet consectetur. In vitae urna commodo amet congue integer dapibus. Interdum semper mauris convallis fusce enim odio. Vitae montes ridiculus felis.</p> 
                             <p class="text-gray">22 Agosto 2022</p>
                         </div>
-                    </div>
+                    </article>
 
-                    <div class="grid-item-post position4">
-                        <img src="./assets/ultrawide.svg" alt="">
-                        <div class="post-item">
+                    <article class="post-card">
+                        <div class="post-image">
+                            <img src="./assets/ultrawide.svg" alt="Ultrawide monitor">
+                        </div>
+                        <div class="post-content">
                             <label>desenvolvimento</label>
                             <h3>Desenvolvimento mobile</h3>
                             <p class="text-gray"><b>By</b> Fabio Tetsuo</p>
                             <p>Lorem ipsum dolor sit amet consectetur. In vitae urna commodo amet congue integer dapibus. Interdum semper mauris convallis fusce enim odio. Vitae montes ridiculus felis.</p> 
                             <p class="text-gray">22 Agosto 2022</p>
                         </div>
-                    </div>
+                    </article>
                 </div>
             </div>
            
-
-            <!--3-->
-            <div class="container-position3">
-            
-                <div class="background-green title-post">
-                    <h3>Posts populares</h3>
+            <!-- Sidebar -->
+            <div class="sidebar">
+                <!--3-->
+                <div class="popular-posts">
+                    <div class="background-green title-post">
+                        <h3>Posts populares</h3>
+                    </div>
+                    <div class="popular-posts-list">
+                        <article class="popular-post-item">
+                            <img src="./assets/woman.svg" alt="Woman working">
+                            <div class="popular-post-content">
+                                <p>Desevolvimento atual</p>
+                                <p class="text-gray">22 Agosto 2022</p>
+                            </div>
+                        </article>
+                        <article class="popular-post-item">
+                            <img src="./assets/gitlab.svg" alt="GitLab">
+                            <div class="popular-post-content">
+                                <p>Desevolvimento atual</p>
+                                <p class="text-gray">22 Agosto 2022</p>
+                            </div>
+                        </article>
+                        <article class="popular-post-item">
+                            <img src="./assets/coffee.svg" alt="Coffee">
+                            <div class="popular-post-content">
+                                <p>Desevolvimento atual</p>
+                                <p class="text-gray">22 Agosto 2022</p>
+                            </div>
+                        </article>
+                    </div>
                 </div>
-                <article class="container-article">
-                    <img src="./assets/woman.svg" alt="">
-                    <div>
-                        <p>Desevolvimento atual</p>
-                        <p class="text-gray">22 Agosto 2022</p>
-                    </div>
-                </article>
-                <article class="container-article">
-                    <img src="./assets/gitlab.svg" alt="">
-                    <div>
-                        <p>Desevolvimento atual</p>
-                        <p class="text-gray">22 Agosto 2022</p>
-                    </div>
-                </article>
-                <article class="container-article">
-                    <img src="./assets/coffee.svg" alt="">
-                    <div>
-                        <p>Desevolvimento atual</p>
-                        <p class="text-gray">22 Agosto 2022</p>
-                    </div>
-                </article>
-            </div>
-            <!--4-->
-            <div class="container-position4">
                 
-                <div class="background-green title-post">
-                    <h3>Categorias</h3>
-                </div>
-                <div>
-                    <div class="container-category">
-                        <p class="text-gray">> saúde</p>
-                        <p class="text-gray">(1)</p>
+                <!--4-->
+                <div class="categories">
+                    <div class="background-green title-post">
+                        <h3>Categorias</h3>
                     </div>
-                    <div class="container-category">
-                        <p class="text-gray">> desenvolvimento</p>
-                        <p class="text-gray">(2)</p>
-                    </div>
-                    <div class="container-category">
-                        <p class="text-gray">> produtividade</p>
-                        <p class="text-gray">(2)</p>
-                    </div>
-                    <div class="container-category">
-                        <p class="text-gray">> opinião</p>
-                        <p class="text-gray">(1)</p>
+                    <div class="categories-list">
+                        <div class="category-item">
+                            <p class="text-gray">> saúde</p>
+                            <p class="text-gray">(1)</p>
+                        </div>
+                        <div class="category-item">
+                            <p class="text-gray">> desenvolvimento</p>
+                            <p class="text-gray">(2)</p>
+                        </div>
+                        <div class="category-item">
+                            <p class="text-gray">> produtividade</p>
+                            <p class="text-gray">(2)</p>
+                        </div>
+                        <div class="category-item">
+                            <p class="text-gray">> opinião</p>
+                            <p class="text-gray">(1)</p>
+                        </div>
                     </div>
                 </div>
             </div>
